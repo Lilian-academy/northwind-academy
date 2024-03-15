@@ -1,0 +1,16 @@
+sources:
+  - name: sap
+    description: fonte do ERP da northwind
+    database: equatorial
+    schema: raw_northwind
+    tables:
+      - name: product
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
+                  
+      - name: category 
+
+      - name: supplier
